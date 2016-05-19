@@ -11,7 +11,8 @@ public class Animal {
     this.legs = legs;
   }
 
-  public String getType() {
+  public String getType()
+  {
     return type;
   }
 }

@@ -4,7 +4,6 @@ import java.util.*;
 
 
 public class Main {
-
   ArrayList<Animal> originalList = new ArrayList<Animal>() {{
     add(new Animal("herbivore", "lamb", 4));
     add(new Animal("herbivore", "cow", 4));
@@ -22,6 +21,17 @@ public class Main {
 
   public Main() {
     // Write your code here
+    for(Animal x:originalList){
+      if(x.getType()=="herbivore") {
+        herbivores.add(x);
+      }
+      else if(x.getType()=="carnivore") {
+        carnivores.add(x);
+      }
+      else{
+        omnivores.add(x);
+      }
+      }
 
 
   }
