@@ -19,11 +19,19 @@ public class Main {
 
   public Main() {
     // Write your code here
+Arrays.sort(simpleThings);
 
 
-  }
+
+
+
+
+
+}
 
   public static void main(String[] args) {
     new Main();
+
+
   }
 }
